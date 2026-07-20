@@ -1,30 +1,33 @@
 # Lumae Skin Studio Demo
 
-A production-ready vertical slice for a fictional premium skin studio. The concept deliberately avoids the typical beige skincare-shop formula and is built around a **personal skin journal**: observe, understand, treat, and adapt over time.
+A production-ready vertical slice for a fictional premium skin studio. The current direction is **Modern Beauty House**: immediately recognisable as a high-end cosmetics experience, but differentiated through the Lumae Fold, asymmetric campaign composition, concern-led navigation and transparent treatment information.
 
 ## Included
 
-- Responsive editorial homepage
-- Interactive skin journal with five needs-based entries
+- Responsive beauty campaign homepage
+- Animated Lumae Fold visual system
+- Interactive skin-concern navigator
+- Signature treatment showcase
+- Concept case / visible-progress module
+- Studio and personal-treatment section
 - Skin Start landing page
 - Barrier Recovery Facial detail page
-- Four-step booking prototype
-- Booking confirmation state
-- Mobile navigation and responsive layouts
-- Accessible form labels, focus states, semantic structure, and reduced-motion support
+- Four-step booking prototype and confirmation state
+- Mobile navigation, reduced-motion support and accessible controls
 
 ## Tech
 
 - Next.js 16 App Router
 - React 19
 - TypeScript
-- CSS design-token system
+- CSS design-token and motion system
+- Web Animations / Intersection Observer interactions
 - Lucide icons
-- Curated remote concept imagery
+- Local concept imagery
 
 ## Routes
 
-- `/` – Homepage and interactive skin journal
+- `/` – Modern Beauty House homepage
 - `/skin-start` – First-appointment landing page
 - `/treatments/barrier-recovery-facial` – Treatment detail
 - `/buchen` – Functional booking prototype
@@ -52,19 +55,6 @@ npm start
 - This is a clearly fictional concept project.
 - The booking flow stores its state only in `sessionStorage`; it does not reserve real appointments.
 - Contact details and legal pages are placeholders.
-- Skin-journal content provides orientation, not medical diagnosis.
-- The remote concept images should be replaced by original studio photography for a real client launch.
-
-## Design direction
-
-The implementation follows the Phase 7 system developed for the project:
-
-- warm paper base instead of generic pure white
-- aubergine as the distinctive commercial and editorial accent
-- strong grotesk hierarchy with restrained serif emphasis
-- minimal card usage
-- transparent price and duration information
-- journal entries as a real interaction rather than decorative “skin scanner” UI
-- mobile content order designed independently from desktop
-
-The approved visual direction is documented in `docs/design-decisions.md`.
+- Content provides cosmetic orientation, not medical diagnosis.
+- Testimonials and the progress module are visibly labelled concept placeholders.
+- The local images should be replaced by one coherent original studio shoot before a real client launch.

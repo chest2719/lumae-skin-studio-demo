@@ -2,7 +2,18 @@
 
 ## Core concept
 
-Lumae is presented as a personal skin journal, not as a skincare shop, medical scanner, or spa catalogue.
+Lumae is a **Modern Beauty House**: visually desirable and unmistakably beauty-focused, without falling into the standard rose-gold product-shop formula.
+
+## Signature device: The Lumae Fold
+
+A softly moving, folded light form is used as a recurring identity element in:
+
+- the campaign hero
+- treatment imagery
+- the final booking section
+- responsive transitions
+
+It is intentionally not a serum droplet, flower, scanner circle, or decorative 3D product render.
 
 ## Conversion model
 
@@ -14,38 +25,33 @@ The primary conversion is **Skin Start**:
 - individually assembled first facial
 - clear next-step recommendation
 
-Visitors who already know their preferred treatment can still enter through a treatment detail page.
-
 ## Visual system
 
-- Paper: `#F3F0E9`
-- Ink: `#1C201E`
-- Plum: `#34162F`
-- Deep plum: `#24101F`
-- Chalk: `#E4DED3`
-- Clay: `#A96F5D`
+- Warm Ivory: `#F6F0E9`
+- Pure: `#FFFAF5`
+- Skin Peach: `#E7B49D`
+- Oxidized Rose: `#A85F64`
+- Deep Plum: `#321A2D`
+- Powder Lilac: `#DED4DF`
+- Espresso: `#241B19`
 
-The implementation intentionally uses almost no box shadows or pill-shaped UI. Editorial depth comes from typography, contrast, photography, borders, and spacing.
+The design uses rounded campaign surfaces selectively, rather than turning every content item into a card.
 
-## Journal interaction
+## Interaction principles
 
-Each entry contains:
-
-- an everyday skin observation
-- a concrete closed-state hint
-- questions Lumae would consider together with the client
-- a possible entry service
-- no automated diagnosis
-
-Only one entry is expanded at a time. On small screens, detail content sits directly under the selected entry; the editorial panel follows below.
+- slow fold movement rather than showy WebGL effects
+- pointer-responsive depth only in the hero
+- concern navigation provides useful content, not an automated diagnosis
+- scroll reveals remain subtle and have a reduced-motion fallback
+- mobile information order is intentionally recomposed
 
 ## Real-project replacements
 
-Before using this concept for an actual studio:
+Before adapting the concept for an actual studio:
 
-1. replace the concept images with an original studio shoot
-2. add real qualifications and hygienic-process details
-3. connect the booking UI to the selected booking provider
+1. replace all concept images with one coherent original shoot
+2. add real qualifications and hygiene-process details
+3. connect the booking UI to the selected provider
 4. create valid legal pages and cancellation terms
 5. validate treatment wording and contraindications with the studio
-6. add real reviews and documented client cases only with consent
+6. add only verified reviews and consented client cases
