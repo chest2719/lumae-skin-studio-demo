@@ -20,7 +20,7 @@ A production-ready vertical slice for a fictional premium skin studio. The conce
 - TypeScript
 - CSS design-token system
 - Lucide icons
-- Local concept imagery
+- Curated remote concept imagery
 
 ## Routes
 
@@ -53,7 +53,7 @@ npm start
 - The booking flow stores its state only in `sessionStorage`; it does not reserve real appointments.
 - Contact details and legal pages are placeholders.
 - Skin-journal content provides orientation, not medical diagnosis.
-- The local images are concept assets derived from the approved visual direction and should be replaced by original studio photography for a real client launch.
+- The remote concept images should be replaced by original studio photography for a real client launch.
 
 ## Design direction
 
@@ -67,4 +67,4 @@ The implementation follows the Phase 7 system developed for the project:
 - journal entries as a real interaction rather than decorative “skin scanner” UI
 - mobile content order designed independently from desktop
 
-The approved visual reference is stored at `docs/design-reference.png`.
+The approved visual direction is documented in `docs/design-decisions.md`.
