@@ -4,7 +4,6 @@ import Link from "next/link";
 import { ArrowRight, Check, Clock3 } from "lucide-react";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { siteImages } from "@/lib/images";
 
 export const metadata: Metadata = {
   title: "Skin Start – Hautanalyse & erstes Facial",
@@ -29,7 +28,7 @@ export default function SkinStartPage() {
             <Link className="button button-primary" href="/buchen">Skin Start buchen</Link>
           </div>
           <div className="page-hero-image">
-            <Image src={siteImages.studioTreatment} alt="Hautanalyse während des Skin-Start-Termins" fill priority sizes="(max-width: 900px) 100vw, 48vw" />
+            <Image src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1800&q=85" alt="Hautanalyse während des Skin-Start-Termins" fill priority sizes="(max-width: 900px) 100vw, 48vw" />
           </div>
         </section>
 
@@ -63,14 +62,7 @@ export default function SkinStartPage() {
             <h2>Ein vollständiger Ersttermin statt eines Verkaufsgesprächs.</h2>
           </div>
           <ul>
-            {[
-              "Persönliches Gespräch und Hautanalyse",
-              "Check deiner aktuellen Routine",
-              "Individuell abgestimmtes erstes Facial",
-              "Priorisierung deines wichtigsten Hautziels",
-              "Pflege- und Treatment-Empfehlung",
-              "Keine Verpflichtung zu Paket oder Produktkauf",
-            ].map((item) => <li key={item}><Check aria-hidden="true" /> {item}</li>)}
+            {["Persönliches Gespräch und Hautanalyse","Check deiner aktuellen Routine","Individuell abgestimmtes erstes Facial","Priorisierung deines wichtigsten Hautziels","Pflege- und Treatment-Empfehlung","Keine Verpflichtung zu Paket oder Produktkauf"].map((item) => <li key={item}><Check aria-hidden="true" /> {item}</li>)}
           </ul>
         </section>
 

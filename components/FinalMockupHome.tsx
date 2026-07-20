@@ -38,19 +38,19 @@ const treatments = [
     eyebrow: "Lumae Radiance",
     title: "Glow Renewal Facial",
     meta: "60 Min · 149 €",
-    image: "/images/hero-treatment.jpg",
+    image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1800&q=85",
   },
   {
     eyebrow: "Lumae Clarity",
     title: "Clarity & Balance Facial",
     meta: "75 Min · 159 €",
-    image: "/images/skin-detail.jpg",
+    image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1800&q=85",
   },
   {
     eyebrow: "Lumae Sculpt",
     title: "Lift & Sculpt Facial",
     meta: "90 Min · 179 €",
-    image: "/images/studio-treatment.jpg",
+    image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1800&q=85",
   },
 ];
 
@@ -106,7 +106,7 @@ export function FinalMockupHome() {
 
           <div className="fm-hero-media" data-reveal>
             <Image
-              src="/images/hero-treatment.jpg"
+              src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1800&q=85"
               alt="Persönliche Gesichtsbehandlung im Lumae Skin Studio"
               fill
               priority
@@ -160,7 +160,7 @@ export function FinalMockupHome() {
         <div className="fm-shell fm-skin-start-card" data-reveal>
           <div className="fm-skin-start-image">
             <Image
-              src="/images/studio-treatment.jpg"
+              src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1800&q=85"
               alt="Entspannender erster Behandlungstermin bei Lumae"
               fill
               unoptimized

@@ -4,7 +4,6 @@ import Link from "next/link";
 import { ArrowRight, Check, Clock3 } from "lucide-react";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { siteImages } from "@/lib/images";
 
 export const metadata: Metadata = {
   title: "Barrier Recovery Facial",
@@ -30,7 +29,7 @@ export default function BarrierRecoveryPage() {
             <Link className="text-link" href="/skin-start">Unsicher? Mit Skin Start beginnen <ArrowRight size={16} aria-hidden="true" /></Link>
           </div>
           <div className="treatment-hero-image">
-            <Image src={siteImages.skinDetail} alt="Natürliche Hautstruktur" fill priority sizes="(max-width: 900px) 100vw, 56vw" />
+            <Image src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1800&q=85" alt="Natürliche Hautstruktur" fill priority sizes="(max-width: 900px) 100vw, 56vw" />
           </div>
         </section>
 
@@ -46,12 +45,7 @@ export default function BarrierRecoveryPage() {
         <section className="content-section shell two-column-content">
           <div><p className="eyebrow">Kann passen, wenn …</p><h2>Deine Haut gerade weniger Reize und mehr Stabilität benötigt.</h2></div>
           <ul className="check-list">
-            {[
-              "die Haut nach Produkten schnell brennt oder spannt",
-              "Rötungen und Trockenheit gleichzeitig auftreten",
-              "die Routine viele aktive Wirkstoffe enthält",
-              "du eine sanfte Behandlung ohne intensive Exfoliation suchst",
-            ].map((item) => <li key={item}><Check aria-hidden="true" /> {item}</li>)}
+            {["die Haut nach Produkten schnell brennt oder spannt","Rötungen und Trockenheit gleichzeitig auftreten","die Routine viele aktive Wirkstoffe enthält","du eine sanfte Behandlung ohne intensive Exfoliation suchst"].map((item) => <li key={item}><Check aria-hidden="true" /> {item}</li>)}
           </ul>
         </section>
 
