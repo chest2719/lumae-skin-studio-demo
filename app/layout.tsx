@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import "./beauty-house.css";
+import "./final-mockup.css";
 
 export const metadata: Metadata = {
   title: {
@@ -11,9 +11,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return (
-    <html lang="de">
-      <body>{children}</body>
-    </html>
-  );
+  return <html lang="de"><body>{children}</body></html>;
 }

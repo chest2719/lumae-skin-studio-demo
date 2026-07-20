@@ -1,16 +1,11 @@
 # Lumae Skin Studio Demo
 
-A production-ready vertical slice for a fictional premium skin studio. The current direction is **Modern Beauty House**: immediately recognisable as a high-end cosmetics experience, but differentiated through the Lumae Fold, asymmetric campaign composition, concern-led navigation and transparent treatment information.
+A responsive Next.js concept website for a fictional premium skin studio. The live homepage follows the approved high-fidelity mock-up: a light beauty-campaign aesthetic, transparent Skin Start offer, concern-led navigation and a compact Signature Treatment showcase.
 
 ## Included
 
-- Responsive beauty campaign homepage
-- Animated Lumae Fold visual system
-- Interactive skin-concern navigator
-- Signature treatment showcase
-- Concept case / visible-progress module
-- Studio and personal-treatment section
-- Skin Start landing page
+- Responsive campaign homepage matching the approved desktop and mobile mock-up
+- Skin Start first-visit landing page
 - Barrier Recovery Facial detail page
 - Four-step booking prototype and confirmation state
 - Mobile navigation, reduced-motion support and accessible controls
@@ -20,14 +15,13 @@ A production-ready vertical slice for a fictional premium skin studio. The curre
 - Next.js 16 App Router
 - React 19
 - TypeScript
-- CSS design-token and motion system
-- Web Animations / Intersection Observer interactions
+- Scoped CSS design system
 - Lucide icons
 - Local concept imagery
 
 ## Routes
 
-- `/` – Modern Beauty House homepage
+- `/` – Lumae campaign homepage
 - `/skin-start` – First-appointment landing page
 - `/treatments/barrier-recovery-facial` – Treatment detail
 - `/buchen` – Functional booking prototype
@@ -40,8 +34,6 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:3000`.
-
 ## Production check
 
 ```bash
@@ -50,11 +42,10 @@ npm run build
 npm start
 ```
 
-## Important demo notes
+## Demo notes
 
-- This is a clearly fictional concept project.
+- This is a fictional concept project.
 - The booking flow stores its state only in `sessionStorage`; it does not reserve real appointments.
 - Contact details and legal pages are placeholders.
 - Content provides cosmetic orientation, not medical diagnosis.
-- Testimonials and the progress module are visibly labelled concept placeholders.
-- The local images should be replaced by one coherent original studio shoot before a real client launch.
+- The concept imagery should be replaced by one coherent original studio shoot before a real client launch.
